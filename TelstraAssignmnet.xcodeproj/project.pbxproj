@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313002C4CA9BC723E1181377 /* Pods_TelstraAssignmnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6C54DEAF0F1B9557C600CE /* Pods_TelstraAssignmnet.framework */; };
+		6A36CF3624AA5E02007174D4 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A36CF3524AA5E02007174D4 /* placeholder.png */; };
+		6AD8C4BA24A9CE80005771FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4B924A9CE80005771FA /* AppDelegate.swift */; };
+		6AD8C4BC24A9CE80005771FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4BB24A9CE80005771FA /* SceneDelegate.swift */; };
+		6AD8C4BE24A9CE80005771FA /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4BD24A9CE80005771FA /* HomeController.swift */; };
+		6AD8C4C324A9CE81005771FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8C4C224A9CE81005771FA /* Assets.xcassets */; };
+		6AD8C4C624A9CE81005771FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8C4C424A9CE81005771FA /* LaunchScreen.storyboard */; };
+		6AD8C4D124A9D8AB005771FA /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4D024A9D8AB005771FA /* TableCell.swift */; };
+		6AD8C4D324A9DD4B005771FA /* placeholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8C4D224A9DD4B005771FA /* placeholder.jpeg */; };
+		6AD8C4DA24A9FCE1005771FA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4D924A9FCE1005771FA /* ModelData.swift */; };
+		6AD8C4DD24A9FEBD005771FA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4DC24A9FEBD005771FA /* ViewModel.swift */; };
+		6AD8C4E024A9FF34005771FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4DF24A9FF34005771FA /* Constants.swift */; };
+		6AD8C4E324AA488B005771FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8C4E224AA488B005771FA /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A36CF3524AA5E02007174D4 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		6AD8C4B624A9CE80005771FA /* TelstraAssignmnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraAssignmnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD8C4B924A9CE80005771FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AD8C4BB24A9CE80005771FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6AD8C4BD24A9CE80005771FA /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		6AD8C4C224A9CE81005771FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD8C4C524A9CE81005771FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AD8C4C724A9CE81005771FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD8C4D024A9D8AB005771FA /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		6AD8C4D224A9DD4B005771FA /* placeholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpeg; sourceTree = "<group>"; };
+		6AD8C4D924A9FCE1005771FA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6AD8C4DC24A9FEBD005771FA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6AD8C4DF24A9FF34005771FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6AD8C4E224AA488B005771FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7B6C54DEAF0F1B9557C600CE /* Pods_TelstraAssignmnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelstraAssignmnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5182818DE0F2E2A66A345C /* Pods-TelstraAssignmnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraAssignmnet.debug.xcconfig"; path = "Target Support Files/Pods-TelstraAssignmnet/Pods-TelstraAssignmnet.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9119B1A882412422161AC6 /* Pods-TelstraAssignmnet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraAssignmnet.release.xcconfig"; path = "Target Support Files/Pods-TelstraAssignmnet/Pods-TelstraAssignmnet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AD8C4B324A9CE80005771FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313002C4CA9BC723E1181377 /* Pods_TelstraAssignmnet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AD8C4AD24A9CE80005771FA = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4B824A9CE80005771FA /* TelstraAssignmnet */,
+				6AD8C4B724A9CE80005771FA /* Products */,
+				FFF530FC1608AD0D794EE030 /* Pods */,
+				ED78FED7D2F937FE78640383 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AD8C4B724A9CE80005771FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4B624A9CE80005771FA /* TelstraAssignmnet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD8C4B824A9CE80005771FA /* TelstraAssignmnet */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4E424AA4A68005771FA /* ViewControllers */,
+				6AD8C4E124AA487A005771FA /* Extensions */,
+				6AD8C4DE24A9FF1D005771FA /* Constants */,
+				6AD8C4DB24A9FE8F005771FA /* ViewModel */,
+				6AD8C4D824A9FCA2005771FA /* Model */,
+				6AD8C4CD24A9D7D7005771FA /* cells */,
+				6AD8C4B924A9CE80005771FA /* AppDelegate.swift */,
+				6AD8C4BB24A9CE80005771FA /* SceneDelegate.swift */,
+				6A36CF3524AA5E02007174D4 /* placeholder.png */,
+				6AD8C4D224A9DD4B005771FA /* placeholder.jpeg */,
+				6AD8C4C224A9CE81005771FA /* Assets.xcassets */,
+				6AD8C4C424A9CE81005771FA /* LaunchScreen.storyboard */,
+				6AD8C4C724A9CE81005771FA /* Info.plist */,
+			);
+			path = TelstraAssignmnet;
+			sourceTree = "<group>";
+		};
+		6AD8C4CD24A9D7D7005771FA /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4D024A9D8AB005771FA /* TableCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		6AD8C4D824A9FCA2005771FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4D924A9FCE1005771FA /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AD8C4DB24A9FE8F005771FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4DC24A9FEBD005771FA /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6AD8C4DE24A9FF1D005771FA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4DF24A9FF34005771FA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6AD8C4E124AA487A005771FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4E224AA488B005771FA /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6AD8C4E424AA4A68005771FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8C4BD24A9CE80005771FA /* HomeController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED78FED7D2F937FE78640383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6C54DEAF0F1B9557C600CE /* Pods_TelstraAssignmnet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF530FC1608AD0D794EE030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C5182818DE0F2E2A66A345C /* Pods-TelstraAssignmnet.debug.xcconfig */,
+				FE9119B1A882412422161AC6 /* Pods-TelstraAssignmnet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AD8C4B524A9CE80005771FA /* TelstraAssignmnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD8C4CA24A9CE81005771FA /* Build configuration list for PBXNativeTarget "TelstraAssignmnet" */;
+			buildPhases = (
+				76C413F07F9E85B57FC4040C /* [CP] Check Pods Manifest.lock */,
+				6AD8C4B224A9CE80005771FA /* Sources */,
+				6AD8C4B324A9CE80005771FA /* Frameworks */,
+				6AD8C4B424A9CE80005771FA /* Resources */,
+				045CC1B89F592A469F48F7A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelstraAssignmnet;
+			productName = TelstraAssignmnet;
+			productReference = 6AD8C4B624A9CE80005771FA /* TelstraAssignmnet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AD8C4AE24A9CE80005771FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = self;
+				TargetAttributes = {
+					6AD8C4B524A9CE80005771FA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 6AD8C4B124A9CE80005771FA /* Build configuration list for PBXProject "TelstraAssignmnet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD8C4AD24A9CE80005771FA;
+			productRefGroup = 6AD8C4B724A9CE80005771FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AD8C4B524A9CE80005771FA /* TelstraAssignmnet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AD8C4B424A9CE80005771FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD8C4C624A9CE81005771FA /* LaunchScreen.storyboard in Resources */,
+				6A36CF3624AA5E02007174D4 /* placeholder.png in Resources */,
+				6AD8C4C324A9CE81005771FA /* Assets.xcassets in Resources */,
+				6AD8C4D324A9DD4B005771FA /* placeholder.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045CC1B89F592A469F48F7A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TelstraAssignmnet/Pods-TelstraAssignmnet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TelstraAssignmnet/Pods-TelstraAssignmnet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TelstraAssignmnet/Pods-TelstraAssignmnet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76C413F07F9E85B57FC4040C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelstraAssignmnet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AD8C4B224A9CE80005771FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD8C4DA24A9FCE1005771FA /* ModelData.swift in Sources */,
+				6AD8C4BE24A9CE80005771FA /* HomeController.swift in Sources */,
+				6AD8C4BA24A9CE80005771FA /* AppDelegate.swift in Sources */,
+				6AD8C4E324AA488B005771FA /* Extensions.swift in Sources */,
+				6AD8C4D124A9D8AB005771FA /* TableCell.swift in Sources */,
+				6AD8C4E024A9FF34005771FA /* Constants.swift in Sources */,
+				6AD8C4DD24A9FEBD005771FA /* ViewModel.swift in Sources */,
+				6AD8C4BC24A9CE80005771FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AD8C4C424A9CE81005771FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD8C4C524A9CE81005771FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AD8C4C824A9CE81005771FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AD8C4C924A9CE81005771FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AD8C4CB24A9CE81005771FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5182818DE0F2E2A66A345C /* Pods-TelstraAssignmnet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelstraAssignmnet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Satish.TelstraAssignmnet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AD8C4CC24A9CE81005771FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9119B1A882412422161AC6 /* Pods-TelstraAssignmnet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TelstraAssignmnet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Satish.TelstraAssignmnet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AD8C4B124A9CE80005771FA /* Build configuration list for PBXProject "TelstraAssignmnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD8C4C824A9CE81005771FA /* Debug */,
+				6AD8C4C924A9CE81005771FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD8C4CA24A9CE81005771FA /* Build configuration list for PBXNativeTarget "TelstraAssignmnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AD8C4CB24A9CE81005771FA /* Debug */,
+				6AD8C4CC24A9CE81005771FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AD8C4AE24A9CE80005771FA /* Project object */;
+}
